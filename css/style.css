@@ -1,0 +1,49 @@
+/*
+
+Project Name: Cookie Monster
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org
+Developed @ One Month in NYC
+
+*/
+
+body {
+	background: url('../images/minimalist.jpg'); /* the .. moves out of the folder, and two steps back*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: right;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+#container {
+		background: #A8DBA8;
+		width: 600px;
+		color: black;
+		padding: 15px;
+		font-family: 'Amatic SC', cursive;
+		font-size: 23px
+}
+
+h1 {
+		font-size: 80px;
+		font-family: 'Sacramento', cursive;
+		color:black;
+}
+
+h2{
+		background: white; /* hexadecimal code are 6 digits code that represents color*/
+		padding: 5px; /* creates gap between text and borders*/
+		border-radius: 5px
+		font-family: 'Sacramento', cursive;
+		color: #A8DBA8
+}
+
+a {
+		color: black;
+		text-decoration: none;
+		font-family: 'Amatic SC', cursive;
+}
